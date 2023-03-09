@@ -1,5 +1,5 @@
 const OPENWEATHERMAP_FORECAST_ENDPOINT = 'https://api.openweathermap.org/data/2.5/forecast';
-const OPENWEATHERMAP_GEOLOCATION_ENDPOINT = 'http://api.openweathermap.org/geo/1.0/direct';
+const OPENWEATHERMAP_GEOLOCATION_ENDPOINT = 'https://api.openweathermap.org/geo/1.0/direct';
 const OPENWEATHERMAP_KEY = '29d73e8fa2cce3052535c1cc8be2f673';
 
 let getGeoResults = async (city, state, country) => {
